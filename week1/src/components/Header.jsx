@@ -1,10 +1,10 @@
 
-function Header(){
+function Header({title}){
 
     return (
         <>
             <h3>
-                Quản Lý Sinh Viên
+                Quản Lý Sinh Viên khoa {title}
             </h3>
         </>
     )

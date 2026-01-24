@@ -4,6 +4,9 @@ function Footer(){
     return (
         <>
             <hr />
+            <p>
+                react js
+            </p>
         </>
     )
 }
