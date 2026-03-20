@@ -40,3 +40,42 @@
 .read-the-docs {
   color: #888;
 }
+
+.counter {
+  border: 2px solid #646cff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background: linear-gradient(145deg, #f0f2f5, #ffffff);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  min-width: 200px;
+  text-align: center;
+}
+
+.counter h3 {
+  margin: 0 0 1rem 0;
+  color: #646cff;
+  font-size: 1.1em;
+}
+
+.counter p {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0 0 1rem 0;
+  color: #333;
+}
+
+.counter button {
+  background: #646cff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background 0.2s;
+}
+
+.counter button:hover {
+  background: #535bf2;
+}

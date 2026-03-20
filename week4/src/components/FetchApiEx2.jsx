@@ -10,10 +10,10 @@ function FetchApiEx2() {
             const response  = await fetch('https://jsonplaceholder.typicode.com/users');
             const data = await response.json();
             setUsers(data);
-            setLoading(false);
           } catch (error) {
-            setLoading(false);
             setError(error.message);
+          }finally{
+            setLoading(false);
           }
         }
         setTimeout(() => {

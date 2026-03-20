@@ -1,0 +1,13 @@
+.todolist{
+    height: 500px;
+    overflow-y: auto;
+}
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}

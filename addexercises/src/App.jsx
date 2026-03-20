@@ -7,6 +7,12 @@ import FetchUsers from './components/FetchUsers.jsx'
 import UserFetch from './components/UserFetch.jsx'
 import UserAxios from './components/UserAxios.jsx'
 import UserFetchAsync from './components/UserFetch Async.jsx'
+import Counter1 from './components/counters/Counter1.jsx'
+import Counter2 from './components/counters/Counter2.jsx'
+import Counter3 from './components/counters/Counter3.jsx'
+import Counter4 from './components/counters/Counter4.jsx'
+import Counter5 from './components/counters/Counter5.jsx'
+import Counter6 from './components/counters/Counter6.jsx'
 function App() {
 
   
@@ -28,6 +34,15 @@ function App() {
       <UserAxios />
       <h1>Async/Await Fetch Users</h1>
       <UserFetchAsync />
+      <h1>6 Different Counters</h1>
+      <div style={{display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center'}}>
+        <Counter1 />
+        <Counter2 />
+        <Counter3 />
+        <Counter4 />
+        <Counter5 />
+        <Counter6 />
+      </div>
     </>
   )
 }

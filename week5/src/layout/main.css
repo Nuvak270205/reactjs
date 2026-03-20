@@ -1,0 +1,14 @@
+.menu{
+    display: flex;
+
+}
+
+.nav-link{
+    padding: 8px;
+    color: black;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link.active{
+    border-bottom: 2px solid blue;
+}
