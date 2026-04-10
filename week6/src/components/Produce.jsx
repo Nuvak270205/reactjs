@@ -19,7 +19,7 @@ function Produce() {
                 </li>
             ))}
         </ul>
-        <Outlet />
+      
     </div>
   )
 }

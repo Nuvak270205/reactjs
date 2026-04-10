@@ -5,7 +5,7 @@ function CheckOut() {
   const navigate = useNavigate()
 
   const handleGoHome = () => {
-    navigate('/')
+    navigate('/produce')
   }
 
 

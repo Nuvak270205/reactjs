@@ -1,28 +1,26 @@
-import React, {useState} from 'react'
-import { Outlet, Link} from 'react-router-dom'
+import React, {useEffect, useState} from 'react'
+import { Outlet, Link, useNavigate} from 'react-router-dom'
 import './main.css'
 
 const menu = [
   {
-    name: 'Dashboard',
-    to : '/'
-  },
-  {
     name: 'Profile',
-    to : '/profile'
+    to : '/dashboard/profile'
   },
   {
     name: 'Orders',
-    to : '/orders'
+    to : '/dashboard/orders'
   },
   {
     name: 'Settings',
-    to : '/settings'
+    to : '/dashboard/settings'
   }
 ]
 
 function DefaultLayout() {
-    const [active, setActive] = useState(0)
+    const [active, setActive] = useState()
+    const navigate = useNavigate()
+
   return (
     <div>
       <div className='menu'>
